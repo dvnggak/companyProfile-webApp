@@ -1,3 +1,4 @@
+import { Container } from 'react-bootstrap';
 import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
@@ -9,7 +10,9 @@ function App() {
 
       </Header>
       <main>
-        <h1>Welcome to My Shop</h1>
+        <Container>
+          <h1>Welcome to DevShop</h1>
+        </Container>
       </main>
       <Footer>
         
